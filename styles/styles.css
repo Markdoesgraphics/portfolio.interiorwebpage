@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    list-style-type:none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero{
+    background-color: #025464;
+    background-image: url(../img/bg-img.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    overflow: scroll;
+    height: 100vh;
+}
+
+
+.navbar-brand{
+    color: #E8AA42;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    border: #fff;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #E57C23;
+}
+
+.navbar-nav .nav-item .active{
+    color: lightcoral;
+}
+
+
+.tagline-container{
+    padding-left: 10%;
+}
+
+.row{
+    border-left: 3px solid #E57C23;
+}
+
+
+.tagline{
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    font-family: 'Sacramento', cursive;
+}
+
+.btn{
+    color: #F8F1F1;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: #E8AA42;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #E57C23;
+}
+
+.smallText{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
